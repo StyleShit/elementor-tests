@@ -35,7 +35,7 @@ default_events:
 # - project_card
 # - project_column
 # - public
- - pull_request
+- pull_request
 # - pull_request_review
 # - pull_request_review_comment
 # - push
@@ -62,7 +62,7 @@ default_permissions:
 
   # Repository contents, commits, branches, downloads, releases, and merges.
   # https://developer.github.com/v3/apps/permissions/#permission-on-contents
-  # contents: read
+  contents: read
 
   # Deployments and deployment statuses.
   # https://developer.github.com/v3/apps/permissions/#permission-on-deployments

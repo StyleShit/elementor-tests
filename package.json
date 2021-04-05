@@ -13,10 +13,11 @@
   ],
   "scripts": {
     "start": "probot run ./index.js",
-    "dev": "nodemon --exec 'probot run ./index.js' ./index.js",
+    "dev": "nodemon --ignore ./tmp --exec 'probot run ./index.js' ./index.js",
     "test": "jest"
   },
   "dependencies": {
+    "node-fetch": "^2.6.1",
     "probot": "^11.0.1",
     "shelljs": "^0.8.4"
   },
