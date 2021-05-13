@@ -8,6 +8,7 @@ module.exports = ( app ) => {
 	const events = [
 		'pull_request.opened',
 		'pull_request.reopened',
+		'push',
 	];
 
 	// Listen to PRs.
